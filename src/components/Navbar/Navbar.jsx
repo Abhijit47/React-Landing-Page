@@ -8,7 +8,7 @@ const imgStyle = {
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-light bg-light position-sticky top-0 z-3 shadow-sm">
+    <nav className="navbar navbar-light bg-light position-sticky top-0 z-1 shadow-sm">
       <div className="container">
         <img src={LOGO} alt="logo" style={imgStyle} />
         <a className="navbar-brand" href="#!">Start Bootstrap</a>
